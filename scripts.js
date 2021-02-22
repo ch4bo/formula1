@@ -1,7 +1,13 @@
 function lekerdezAlcim() {
+    console.log(document.title+"Ok");
 }
-
+lekerdezAlcim();
 function kuldUzenet() {
+    console.log("Ok");
+    let nev=document.getElementById('inputNev').value;
+    if(nev.length==0){
+        alert("hiányos")
+    }else{alert("köszönjük")}
 }
 
 
